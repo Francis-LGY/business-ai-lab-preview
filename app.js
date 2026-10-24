@@ -65,7 +65,10 @@
       arrow.setAttribute('aria-hidden','true');
       button.append(label, arrow);
       button.addEventListener('click', () => { selectedResearch = item; renderDialog(); dialog.showModal(); });
-      body.append(category, title, description, button);
+      const demoBadge = document.createElement('span');
+      demoBadge.className = 'demo-badge research-demo-badge';
+      demoBadge.textContent = t.sampleBadge;
+      body.append(category, demoBadge, title, description, button);
       article.append(drawing, body);
       grid.append(article);
     });
@@ -95,6 +98,7 @@
     $('.hero-visual img').alt = t.imageAlt;
     document.title = lang === 'zh' ? 'Business Artificial Inteligence Lab · 香港城市大学（东莞）' : 'Business Artificial Inteligence Lab · CityUHK (Dongguan)';
     setMenu(false); renderResearch(); renderDialog();
+    document.dispatchEvent(new Event('lab:languagechange'));
   }
   $('#language-toggle').addEventListener('click', () => {
     lang = lang === 'en' ? 'zh' : 'en';
@@ -113,7 +117,7 @@
   $('#main-nav').addEventListener('click', event => { if (event.target.closest('a')) setMenu(false); });
   document.addEventListener('keydown', event => { if(event.key === 'Escape' && $('#main-nav').classList.contains('open')) setMenu(false, true); });
   document.addEventListener('click', event => { if(!event.target.closest('.site-header')) setMenu(false); });
-  window.matchMedia('(min-width: 701px)').addEventListener('change', event => { if(event.matches) setMenu(false); });
+  window.matchMedia('(min-width: 1001px)').addEventListener('change', event => { if(event.matches) setMenu(false); });
   $('#dialog-close').addEventListener('click', () => dialog.close());
   dialog.addEventListener('click', event => { if(event.target === dialog) { const r=dialog.getBoundingClientRect(); if(event.clientX<r.left || event.clientX>r.right || event.clientY<r.top || event.clientY>r.bottom) dialog.close(); } });
   $('#dialog-contact').addEventListener('click', () => dialog.close());
