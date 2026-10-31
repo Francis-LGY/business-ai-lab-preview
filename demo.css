@@ -20,6 +20,22 @@
 .portrait-caption{position:absolute;bottom:15px;left:0;right:0;text-align:center;z-index:1;font-size:7px;letter-spacing:1.3px;color:#826e74}
 .sage .team-portrait{background:#e5e9e2}.sage .monogram{color:#6d8274}.sand .team-portrait{background:#eee6da}.sand .monogram{color:#9c8062}.lilac .team-portrait{background:#e8e5ed}.lilac .monogram{color:#867795}
 .team-body{padding:22px;display:flex;flex-direction:column;flex:1}
+.real-portrait{height:280px!important;background:#fff!important;padding:12px;display:block}
+.real-portrait:before,.real-portrait:after{display:none}
+.real-portrait img{height:100%;width:100%;min-height:0;min-width:0;object-fit:contain;display:block}
+.real-person .team-body h3{margin-top:0}
+.team-affiliation{font-size:11px;line-height:1.8;color:var(--muted);margin-bottom:15px}
+.profile-layout .real-portrait{height:390px!important}
+.content-badge{display:inline-block;width:fit-content;padding:5px 9px;font-size:9px;line-height:1.6;letter-spacing:.7px;background:#edf2ee;color:#47614e;border:1px solid #c6d4c9}
+.campus-photo{margin:0;align-self:center}
+.campus-photo img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+.campus-photo figcaption{font-size:10px;color:var(--muted);line-height:1.8;margin-top:10px}
+.programme-number{padding:25px 25px 0;font-size:10px;color:var(--wine);letter-spacing:1.2px}
+.research-programme-card h3{font-size:28px;line-height:1.35}
+.project-facts{display:grid;grid-template-columns:150px 1fr;gap:14px 25px;margin-top:28px;font-size:14px;line-height:1.8}
+.project-facts dt{color:var(--muted)}
+.project-facts dd{margin:0}
+@media(max-width:700px){.real-portrait{height:330px!important}.profile-layout .real-portrait{height:360px!important}.team-affiliation{font-size:12px}.project-facts{grid-template-columns:1fr;gap:7px}.project-facts dd{margin-bottom:16px}.research-programme-card h3{font-size:26px}}
 .team-body h3{font-size:26px;margin:19px 0 8px}.team-role{font-size:11px;color:var(--wine);margin-bottom:15px;line-height:1.6}.team-focus{font-size:11px;font-weight:600;line-height:1.7;margin-bottom:12px}.team-bio{font-size:11px;line-height:1.9;color:var(--muted);margin-bottom:20px}
 .sample-action{display:flex;justify-content:space-between;gap:18px;width:100%;padding:15px 0 0;background:none;border:0;border-top:1px solid var(--line);font-size:10px;line-height:1.6;text-align:left;margin-top:auto}
 .sample-action:hover{color:var(--wine)}.sample-action>span{font-size:17px;line-height:1.1}

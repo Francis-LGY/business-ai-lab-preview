@@ -25,21 +25,22 @@
     if(!selected) return;
     const lang=language(), t=window.LAB_CONTENT[lang], {item,type}=selected, copy=item[lang];
     $('#sample-type').textContent=t[type==='profile'?'profileDemo':type==='paper'?'publications':'events'];
-    $('#sample-title').textContent=copy.name ? `${copy.name} · ${t.mockPerson}` : copy.title;
+    $('#sample-title').textContent=copy.name || copy.title;
     $('#sample-meta').textContent=copy.role || `${copy.meta} · ${copy.authors || copy.venue}`;
     $('#sample-description').textContent=copy.bio || copy.description;
     $('#sample-subheading').textContent=t[`${type}Details`];
     $('#sample-points').replaceChildren(...copy.points.map(text => node('li','',text)));
     $('#sample-disclaimer').textContent=t[`${type}Disclaimer`];
+    dialog.querySelector('[data-i18n="sampleBadge"]').hidden=type==='profile';
   }
   function render() {
     const lang=language(), t=window.LAB_CONTENT[lang];
     $('#people-grid').replaceChildren(...window.LAB_DEMO.people.map(person => {
-      const copy=person[lang], card=node('article',`team-card ${person.tone}`);
-      const portrait=node('div','team-portrait'); portrait.setAttribute('aria-hidden','true');
-      portrait.append(node('span','monogram',person.initials),node('span','portrait-caption',t.portrait));
+      const copy=person[lang], card=node('article',`team-card real-person ${person.tone}`);
+      const portrait=node('div','team-portrait real-portrait');
+      const photo=node('img');photo.src=person.photo;photo.alt=copy.name;photo.loading='lazy';photo.width=300;photo.height=400;portrait.append(photo);
       const body=node('div','team-body');
-      body.append(badge(t.profileDemo),node('h3','',copy.name),node('p','team-role',copy.role),node('p','team-focus',copy.focus),node('p','team-bio',copy.bio),action(person,'profile',t.profileAction));
+      body.append(node('h3','',copy.name),node('p','team-role',copy.role),node('p','team-affiliation',copy.affiliation),node('p','team-focus',copy.focus),node('p','team-bio',copy.bio),action(person,'profile',t.profileAction));
       card.append(portrait,body); return card;
     }));
     $('#papers-list').replaceChildren(...window.LAB_DEMO.papers.map((paper,index) => {

@@ -67,7 +67,8 @@
       button.addEventListener('click', () => { selectedResearch = item; renderDialog(); dialog.showModal(); });
       const demoBadge = document.createElement('span');
       demoBadge.className = 'demo-badge research-demo-badge';
-      demoBadge.textContent = t.sampleBadge;
+      demoBadge.textContent = item.confirmed ? t.researchBadge : t.sampleBadge;
+      if(item.confirmed) demoBadge.classList.add('content-badge');
       body.append(category, demoBadge, title, description, button);
       article.append(drawing, body);
       grid.append(article);
@@ -96,7 +97,7 @@
     $('#main-nav').setAttribute('aria-label', lang === 'zh' ? '主导航' : 'Main navigation');
     $('.filters').setAttribute('aria-label', lang === 'zh' ? '筛选研究主题' : 'Filter research themes');
     $('.hero-visual img').alt = t.imageAlt;
-    document.title = lang === 'zh' ? 'Business Artificial Inteligence Lab · 香港城市大学（东莞）' : 'Business Artificial Inteligence Lab · CityUHK (Dongguan)';
+    document.title = `${t.labName} · ${lang === 'zh' ? '香港城市大学（东莞）' : 'CityUHK (Dongguan)'}`;
     setMenu(false); renderResearch(); renderDialog();
     document.dispatchEvent(new Event('lab:languagechange'));
   }

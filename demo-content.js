@@ -1,10 +1,10 @@
 /* User-authorized fictional content for the design preview. Every entry is labeled.
    Replace these examples with verified lab information before official publication. */
 Object.assign(window.LAB_CONTENT.en, {
-  institutionLabel:'BUSINESS ARTIFICIAL INTELIGENCE LAB', siteDemo:'DEMO WEBSITE · TO BE REVISED',
+  institutionLabel:'BUSINESS ARTIFICIAL INTELLIGENCE LAB', siteDemo:'DEMO WEBSITE · TO BE REVISED',
   demoNotice:'Design preview: profiles, papers, events, and lab contacts are fictional examples marked for revision. This is not an official university publication.', reviewExamples:'View examples ↓',
   sampleBadge:'SAMPLE CONTENT · TO BE REVISED', profileDemo:'FICTIONAL PROFILES · TO BE REVISED',
-  aboutBody:'At Business Artificial Inteligence Lab, we explore how artificial intelligence changes the way businesses make decisions, organize work, and create value. Our proposed approach connects management research, computational methods, and human-centered inquiry to turn important business questions into testable ideas.',
+  aboutBody:'At Business Artificial Intelligence Lab, we explore how artificial intelligence changes the way businesses make decisions, organize work, and create value. Our proposed approach connects management research, computational methods, and human-centered inquiry to turn important business questions into testable ideas.',
   aboutNote:'Sample introduction · to be revised. The mission, research programme, and methods described here are draft examples, not verified lab activities.',
   researchIntro:'Four complementary perspectives on AI and business.\nSample research agenda · to be revised.',
   peopleIntro:'Faculty, researchers, and students working across business, technology, and society — an illustrative team structure.',
@@ -23,10 +23,10 @@ Object.assign(window.LAB_CONTENT.en, {
   sampleClose:'Close sample details', emailLabel:'Email · sample, not deliverable', officeLabel:'Office · sample', phoneLabel:'Telephone · placeholder', hoursLabel:'Visiting hours · sample', revisionTag:'TO BE REVISED'
 });
 Object.assign(window.LAB_CONTENT.zh, {
-  institutionLabel:'BUSINESS ARTIFICIAL INTELIGENCE LAB', siteDemo:'演示网站 · 待修改',
+  institutionLabel:'BUSINESS ARTIFICIAL INTELLIGENCE LAB', siteDemo:'演示网站 · 待修改',
   demoNotice:'演示说明：成员、论文、活动及实验室联系方式均为模拟资料，已逐项标注“待修改”。本页不是大学官方发布。', reviewExamples:'查看示例 ↓',
   sampleBadge:'示例内容 · 待修改', profileDemo:'模拟人物 · 待修改',
-  aboutBody:'Business Artificial Inteligence Lab 关注人工智能如何改变企业决策、组织协作与价值创造。我们拟将管理学研究、计算方法与以人为中心的视角结合，把重要的商业问题转化为可检验的研究想法，连接学术探索与商业实践。',
+  aboutBody:'Business Artificial Intelligence Lab 关注人工智能如何改变企业决策、组织协作与价值创造。我们拟将管理学研究、计算方法与以人为中心的视角结合，把重要的商业问题转化为可检验的研究想法，连接学术探索与商业实践。',
   aboutNote:'示例介绍 · 待修改。上述使命、研究计划与方法为模拟文案，不代表已经开展的实验室活动。',
   researchIntro:'从四个互补视角，探索 AI 与商业。\n示例研究计划 · 待修改。',
   peopleIntro:'以教师、研究人员和学生共同组成跨学科团队，连接商业、技术与社会视角——以下为模拟团队结构。',
@@ -46,12 +46,7 @@ Object.assign(window.LAB_CONTENT.zh, {
 });
 
 window.LAB_DEMO = {
-  people:[
-    {id:'person-chen',initials:'ZC',tone:'rose',en:{name:'Zhiyuan Chen',role:'Professor · Lab Director',focus:'AI strategy & organizational design',bio:'An illustrative faculty profile focused on how firms translate AI capabilities into new ways of working. This sample director connects the lab’s research agenda with business questions.',points:['AI strategy and organizational transformation','Technology adoption and managerial judgment','Interdisciplinary research collaboration']},zh:{name:'陈知远',role:'教授 · 实验室主任',focus:'AI 战略与组织设计',bio:'模拟教师简介：关注企业如何将 AI 能力转化为新的工作方式，示例职责包括统筹实验室研究方向，以及连接学术问题与商业场景。',points:['AI 战略与组织变革','技术采用与管理者判断','跨学科研究合作']}},
-    {id:'person-lin',initials:'SL',tone:'sage',en:{name:'Siqi Lin',role:'Assistant Professor',focus:'Human–AI interaction & decision science',bio:'An illustrative faculty profile examining trust and judgment in AI-assisted work. The sample research approach combines behavioral experiments with organizational field studies.',points:['Human–AI trust and collaboration','Behavioral experiments and decision science','Learning and expertise in AI-assisted work']},zh:{name:'林思齐',role:'助理教授',focus:'人机交互与决策科学',bio:'模拟教师简介：研究 AI 辅助工作中的信任与判断，示例研究方法结合行为实验与组织场景研究，探索人机协作的边界。',points:['人机信任与协作','行为实验与决策科学','AI 辅助工作中的学习与专业能力']}},
-    {id:'person-zhou',initials:'YZ',tone:'sand',en:{name:'Yuan Zhou',role:'Postdoctoral Researcher',focus:'AI agents & business analytics',bio:'An illustrative postdoctoral profile exploring agent-based workflows and interpretable business analytics. The sample role includes prototyping and evaluating research tools.',points:['AI agents and workflow design','Business analytics and model evaluation','Reproducible computational methods']},zh:{name:'周予安',role:'博士后研究员',focus:'智能体与商业分析',bio:'模拟博士后简介：关注智能体工作流和可解释的商业分析，示例职责包括研究工具原型开发、评估设计及研究复现。',points:['AI 智能体与工作流设计','商业分析与模型评估','可复现计算方法']}},
-    {id:'person-xu',initials:'MX',tone:'lilac',en:{name:'Mingche Xu',role:'Doctoral Researcher',focus:'Responsible AI & the future of work',bio:'An illustrative doctoral profile investigating how AI adoption may affect fairness, autonomy, and everyday work. This sample project centers on human experience.',points:['Responsible AI and organizational governance','Employee autonomy and the future of work','Qualitative and mixed-methods research']},zh:{name:'许明澈',role:'博士研究生',focus:'负责任的 AI 与未来工作',bio:'模拟博士生简介：关注 AI 采用对公平、自主性和日常工作的影响，以人的体验为研究出发点，示例方法包括访谈及混合方法研究。',points:['负责任的 AI 与组织治理','员工自主性与未来工作','质性与混合方法研究']}}
-  ],
+  people:[], // Confirmed team is populated by lab-content.js.
   papers:[
     {id:'paper-judgment',en:{title:'When AI Advice Meets Managerial Judgment',meta:'Sample working paper · 2026 · Not published',authors:'Zhiyuan Chen & Siqi Lin (fictional authors)',description:'This fictional abstract proposes studying how managers combine AI recommendations with their own expertise. The illustrative design compares decision processes across tasks with different levels of uncertainty. No data have been collected and no findings are asserted.',points:['Compare unaided, AI-assisted, and explanation-assisted decisions','Examine calibration of confidence and willingness to challenge recommendations','Evaluate decision quality with pre-specified criteria']},zh:{title:'当 AI 建议遇见管理者判断',meta:'示例工作论文 · 2026（模拟年份）· 未发表',authors:'陈知远、林思齐（虚构作者）',description:'模拟摘要：本研究构想探讨管理者如何将 AI 建议与自身经验结合，比较不同不确定性任务中的决策过程。此处只展示研究设计示例，尚无真实数据或研究结论。',points:['比较独立决策、AI 辅助决策与解释辅助决策','考察信心校准及质疑模型建议的意愿','使用预先设定的标准评估决策质量']}},
     {id:'paper-agents',en:{title:'Designing Agent Workflows for Knowledge Work',meta:'Sample research proposal · 2026 · Not published',authors:'Yuan Zhou & Zhiyuan Chen (fictional authors)',description:'This fictional abstract outlines a framework for studying AI-agent workflows in knowledge-intensive business tasks. The example asks how task decomposition, human review, and recovery from errors could be evaluated together.',points:['Map tasks into agent actions and human review points','Compare workflow reliability under controlled failure cases','Measure quality, effort, and recoverability without claiming results']},zh:{title:'面向知识工作的智能体流程设计',meta:'示例研究计划 · 2026（模拟年份）· 未发表',authors:'周予安、陈知远（虚构作者）',description:'模拟摘要：提出一个研究知识密集型商业任务中 AI 智能体工作流的框架，探讨如何共同评估任务拆分、人工复核和错误恢复。此文案不代表已完成的研究成果。',points:['将任务映射为智能体动作与人工复核节点','在受控失败场景中比较流程可靠性','考察质量、投入和可恢复性，不预设研究结果']}},

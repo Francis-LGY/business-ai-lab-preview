@@ -7,10 +7,10 @@ window.LAB_CONTENT = {
     hero1: 'Business.', hero2: 'Artificial Intelligence.', hero3: 'Human possibility.',
     heroDescription: 'Exploring the intersection of artificial intelligence and business — and the possibilities it opens for people, organizations, and society.',
     explore: 'Explore our research', meet: 'Get to know the lab', heroFoot: 'A meeting point for business questions and AI thinking.',
-    campusTitle: 'Rooted in Dongguan.\nConnected to possibility.', campusCaption: 'CityUHK (Dongguan) · Campus visualization', imageCredit: 'Image: CityUHK (Dongguan)',
-    labName: 'Business Artificial Inteligence Lab', scroll: 'SCROLL TO DISCOVER',
+    campusTitle: 'Rooted in Dongguan.\nConnected to possibility.', campusCaption: 'CityUHK (Dongguan) · Campus photograph', imageCredit: 'Image: CityUHK (Dongguan)',
+    labName: 'Business Artificial Intelligence Lab', scroll: 'SCROLL TO DISCOVER',
     aboutEyebrow: '01 / ABOUT THE LAB', aboutTitle: 'Better questions.\nMeaningful intelligence.', aboutLead: 'What becomes possible when business meets artificial intelligence?',
-    aboutBody: 'Business Artificial Inteligence Lab is based at City University of Hong Kong (Dongguan). This first website concept frames a space for exploring how AI can inform business decisions, reshape organizations, and create value for people.',
+    aboutBody: 'Business Artificial Intelligence Lab is based at City University of Hong Kong (Dongguan). This first website concept frames a space for exploring how AI can inform business decisions, reshape organizations, and create value for people.',
     aboutNote: 'The research themes below are proposed starting points. The lab’s mission and programme will be finalized with the team.', connect: 'Connect with the lab',
     principle1: 'Business relevance', principle1Body: 'Start with questions that matter.', principle2: 'Rigorous inquiry', principle2Body: 'Build understanding through evidence.', principle3: 'Human perspective', principle3Body: 'Keep people at the heart of progress.',
     researchEyebrow: '02 / RESEARCH EXPLORATIONS', researchTitle: 'Where ideas become inquiry.', researchIntro: 'New perspectives on intelligent business.\nProposed themes for the lab’s research agenda.',
@@ -21,7 +21,7 @@ window.LAB_CONTENT = {
     contactEyebrow: '05 / LET’S CONNECT', contactTitle: 'The next idea\nstarts with a conversation.', contactBody: 'Research collaboration. Academic exchange. A shared question.\nThis is where future connections begin.', contactUniversity: 'City University of Hong Kong (Dongguan)', address: '8 Gaoxiong Road, Songshan Lake\nDongguan, Guangdong, China', contactPending: 'The lab’s email and office details will be added after confirmation.', visit: 'Campus location & directions',
     backTop: 'Back to top', footerNote: 'Website concept · Not an official university publication', dialogEyebrow: 'PROPOSED RESEARCH THEME', questions: 'Questions to explore', dialogNote: 'This is a proposed research direction for discussion, not a claim of an active project or completed research.',
     readMore: 'Explore the theme', themeCount: 'RESEARCH THEMES', businessCategory: 'BUSINESS & DECISIONS', peopleCategory: 'PEOPLE & SOCIETY', menuOpen: 'Open navigation', menuClose: 'Close navigation', dialogClose: 'Close details',
-    imageAlt: 'Architectural visualization of academic buildings at City University of Hong Kong (Dongguan)'
+    imageAlt: 'Photograph of academic buildings at City University of Hong Kong (Dongguan)'
   },
   zh: {
     skip: '跳至正文', university: '香港城市大学（东莞） ↗', concept: '网站设计稿 · 内容待确认',
@@ -29,10 +29,10 @@ window.LAB_CONTENT = {
     hero1: '商业洞察。', hero2: '人工智能。', hero3: '人的无限可能。',
     heroDescription: '探索人工智能与商业的交汇之处，理解技术如何为个体、组织与社会带来新的可能。',
     explore: '探索研究方向', meet: '认识我们的实验室', heroFoot: '让商业问题与人工智能思考在此相遇。',
-    campusTitle: '立足东莞。\n连接未来的可能。', campusCaption: '香港城市大学（东莞）· 校园效果图', imageCredit: '图片来源：香港城市大学（东莞）',
-    labName: 'Business Artificial Inteligence Lab', scroll: '向下探索',
+    campusTitle: '立足东莞。\n连接未来的可能。', campusCaption: '香港城市大学（东莞）· 校园实景照片', imageCredit: '图片来源：香港城市大学（东莞）',
+    labName: 'Business Artificial Intelligence Lab', scroll: '向下探索',
     aboutEyebrow: '01 / 关于实验室', aboutTitle: '提出更好的问题。\n探索有价值的智能。', aboutLead: '当商业遇见人工智能，会打开怎样的可能？',
-    aboutBody: 'Business Artificial Inteligence Lab 位于香港城市大学（东莞）。在这份网站初稿中，我们希望呈现一个围绕人工智能与商业的研究空间，探索 AI 如何辅助决策、改变组织，并为人创造价值。',
+    aboutBody: 'Business Artificial Intelligence Lab 位于香港城市大学（东莞）。在这份网站初稿中，我们希望呈现一个围绕人工智能与商业的研究空间，探索 AI 如何辅助决策、改变组织，并为人创造价值。',
     aboutNote: '以下研究主题为首版拟议方向，实验室的使命和研究计划有待团队进一步确认。', connect: '联系实验室',
     principle1: '扎根商业问题', principle1Body: '从有意义的现实问题出发。', principle2: '坚持严谨研究', principle2Body: '用证据推进对问题的理解。', principle3: '关注人的价值', principle3Body: '让技术进步始终以人为本。',
     researchEyebrow: '02 / 研究探索', researchTitle: '让想法，成为值得研究的问题。', researchIntro: '以新的视角，理解智能时代的商业。\n以下为拟议研究主题，供团队讨论。',
@@ -42,13 +42,9 @@ window.LAB_CONTENT = {
     locationEyebrow: '我们的所在地', locationTitle: '让研究与现实，\n在这里相遇。', locationBody: '香港城市大学（东莞）坐落于粤港澳大湾区的松山湖科学城。在这里，教育、科研与产业近距离相遇，为跨领域交流提供环境。', discoverCampus: '了解大学与校园',
     contactEyebrow: '05 / 与我们联系', contactTitle: '下一个好想法，\n从一次交流开始。', contactBody: '研究合作、学术交流，或一个共同关心的问题。\n让新的连接，从这里发生。', contactUniversity: '香港城市大学（东莞）', address: '中国广东省东莞市\n松山湖高雄路 8 号', contactPending: '实验室邮箱与办公室信息将在确认后补充。', visit: '查看校园位置与交通',
     backTop: '回到顶部', footerNote: '网站设计稿 · 非大学官方发布', dialogEyebrow: '拟议研究主题', questions: '值得探索的问题', dialogNote: '此方向为供讨论的研究构想，不代表已开展的项目或已取得的研究成果。',
-    readMore: '了解研究主题', themeCount: '个研究主题', businessCategory: '商业与决策', peopleCategory: '人与社会', menuOpen: '打开导航菜单', menuClose: '关闭导航菜单', dialogClose: '关闭详情', imageAlt: '香港城市大学（东莞）教学楼校园效果图'
+    readMore: '了解研究主题', themeCount: '个研究主题', businessCategory: '商业与决策', peopleCategory: '人与社会', menuOpen: '打开导航菜单', menuClose: '关闭导航菜单', dialogClose: '关闭详情', imageAlt: '香港城市大学（东莞）教学楼校园实景照片'
   }
 };
 
-window.LAB_RESEARCH = [
-  {id:'decisions', category:'business', art:'decisions', en:{title:'AI & Business\nDecision-Making',summary:'Exploring how intelligent tools can support better decisions in complex business environments.',description:'A proposed area of inquiry into the relationship between AI-generated insights, managerial judgment, and business decisions. The emphasis is on understanding when AI helps, where it falls short, and how its contribution could be evaluated.',questions:['When does AI improve the quality of business decisions, and when does it introduce new errors?','How can managers combine domain expertise with model-generated recommendations?','What evidence would demonstrate decision quality beyond short-term efficiency?']},zh:{title:'AI 与商业决策',summary:'探索智能工具如何辅助复杂商业环境中的判断与决策。',description:'这一拟议方向关注 AI 提供的洞察、管理者判断与商业决策之间的关系，探讨 AI 何时有帮助、何时存在局限，以及如何评估其实际贡献。',questions:['AI 在什么条件下改善商业决策，又在何时引入新的错误？','管理者如何将领域经验与模型建议相结合？','除了短期效率，什么证据可以说明决策质量得到了提升？']}},
-  {id:'organizations', category:'business', art:'organizations', en:{title:'Intelligent\nOrganizations',summary:'Understanding how AI might reshape workflows, coordination, and organizational design.',description:'A proposed exploration of how organizations adapt as AI tools enter everyday work. Potential questions connect technology adoption with organizational structure, coordination, and the distribution of responsibility.',questions:['How might AI change the way teams coordinate and share knowledge?','Which organizational conditions help turn an AI prototype into useful practice?','How should responsibility be allocated when decisions involve both people and AI?']},zh:{title:'智能组织与管理',summary:'理解 AI 如何重塑工作流程、团队协作与组织设计。',description:'这一拟议方向探索组织如何适应进入日常工作的 AI 工具，将技术采用与组织结构、协同方式及责任分配联系起来。',questions:['AI 可能怎样改变团队协调与知识共享的方式？','什么组织条件有助于将 AI 原型转化为实际价值？','当决策由人和 AI 共同参与时，应如何划分责任？']}},
-  {id:'collaboration', category:'people', art:'collaboration', en:{title:'Human–AI\nCollaboration',summary:'Asking what effective collaboration between people and intelligent systems could look like.',description:'A proposed human-centered research theme examining the ways people interact with AI in the workplace. It invites questions about trust, learning, expertise, and the design of collaborative tasks.',questions:['How do people decide when to trust or challenge an AI recommendation?','Which task designs help people and AI complement one another?','How might working with AI affect learning, expertise, and autonomy over time?']},zh:{title:'人机协作',summary:'探索人与智能系统如何建立有效、互补的协作关系。',description:'这一拟议方向以人为中心，考察工作场景中的人机互动，关注信任、学习、专业能力与协作任务设计。',questions:['人们如何判断应该信任还是质疑 AI 的建议？','什么样的任务设计能让人与 AI 形成互补？','长期与 AI 协作，可能如何影响学习、专业能力和自主性？']}},
-  {id:'responsibility', category:'people', art:'responsibility', en:{title:'Responsible AI\n& Society',summary:'Examining the human and societal questions behind the adoption of AI in business.',description:'A proposed theme on the wider consequences of AI adoption, including fairness, transparency, accountability, and access. It considers how business practices could respond to these questions with evidence and care.',questions:['How can organizations assess who benefits from AI adoption and who may be disadvantaged?','What forms of transparency help people understand and contest AI-assisted decisions?','How can responsible AI principles be translated into everyday organizational practice?']},zh:{title:'负责任的 AI 与社会',summary:'审视商业采用 AI 背后，关于人、责任与社会影响的问题。',description:'这一拟议方向关注 AI 应用的广泛影响，包括公平、透明、问责与可及性，探讨企业如何基于证据回应这些问题。',questions:['组织如何评估谁从 AI 应用中受益，谁可能处于不利位置？','怎样的透明机制有助于人们理解并质疑 AI 辅助决策？','如何将负责任的 AI 原则转化为日常组织实践？']}}
-];
+
+// The confirmed research programme is populated by lab-content.js.
