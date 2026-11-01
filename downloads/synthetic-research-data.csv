@@ -1,5 +1,0 @@
-record_id,group,review_minutes,quality_score,synthetic_notice
-S001,baseline,18,72,FICTIONAL_DEMO_NOT_REAL_DATA
-S002,baseline,22,68,FICTIONAL_DEMO_NOT_REAL_DATA
-S003,assisted,15,73,FICTIONAL_DEMO_NOT_REAL_DATA
-S004,assisted,25,65,FICTIONAL_DEMO_NOT_REAL_DATA
